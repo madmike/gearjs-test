@@ -13,6 +13,13 @@ $ npm install
 $ npx sequelize-cli db:migrate
 ```
 
+## Setting env
+You need to copy .env.example and set up your environment:
+- connection to DB
+- mnemonic phrase for you connected account
+- program ID on idea.gear-tech.io
+- application ID on idea.gear-tech.io
+
 ## Running the app
 
 ```bash
